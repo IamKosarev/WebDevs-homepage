@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/build/tailwind.css" />
+    <title>WebDevs | Home</title>
+  </head>
+  <body class="text-gray-800">
+    <nav class="sticky top-0 p-3 z-10 bg-white">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold">WebDevs</h1>
+        <span id="hamburger" class="material-icons block">menu</span>
+        <span id="close" class="material-icons block hidden">close</span>
+      </div>
+      <div id="nav-links" class="mt-6 hidden">
+        <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
+          >Home</a
+        >
+        <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
+          >Services</a
+        >
+        <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
+          >Our Works</a
+        >
+        <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
+          >Clients</a
+        >
+        <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <div class="container px-3 mx-auto max-w-sm">
+      <div class="ml-10 mt-10">
+        <p class="text-blue-400 text-xs font-semibold">
+          Unhappy with your website?
+        </p>
+        <h1 class="text-2xl text-gray-900 font-semibold">
+          We create beautiful <br />
+          and fast web services
+        </h1>
+      </div>
+
+      <img
+        class="h-36 w-full mt-4 rounded-2xl object-cover"
+        src="img/heroImage.jpg"
+        alt="People in front of a whiteboard"
+      />
+      <h1 class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold">
+        Story, emotion <br />
+        and purpose
+      </h1>
+      <p class="mt-8 text-xs mx-auto w-72 leading-5">
+        We help transform your ideas into real world <br />
+        applications that will outperform your <br />
+        toughest competition and help you achieve <br />
+        your strategic goals in short period of time.
+      </p>
+
+      <form class="mt-8 mx-auto w-72">
+        <label class="text-xs inline-block text-gray-500" for="email"
+          >Want us to contact you?</label
+        >
+        <div class="relative w-full">
+          <input
+            type="email"
+            placeholder="Email"
+            class="bg-gray-200 p-3 pr-20 rounded-xl font-semibold"
+          />
+          <button
+            class="absolute top-1 right-2 bg-blue-400 hover:bg-blue-500 py-2 px-6 rounded-xl text-white"
+          >
+            Join
+          </button>
+        </div>
+      </form>
+
+      <h1 class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold">
+        We offer high <br />
+        demand services
+      </h1>
+
+      <div
+        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
+      >
+        <div
+          class="bg-blue-400 rounded-lg w-16 h-16 flex items-center justify-center"
+        >
+          <span class="material-icons text-white text-4xl">create</span>
+        </div>
+        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">UI/UX Design</h1>
+        <p class="mt-8 text-md leading-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+          ac nulla consequat aliquet id quis turpis.
+        </p>
+        <button
+          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <div
+        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
+      >
+        <div
+          class="bg-green-500 rounded-lg w-16 h-16 flex items-center justify-center"
+        >
+          <span class="material-icons text-white text-4xl">code</span>
+        </div>
+        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Frontend</h1>
+        <p class="mt-8 text-md leading-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+          ac nulla consequat aliquet id quis turpis.
+        </p>
+        <button
+          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <div
+        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
+      >
+        <div
+          class="bg-red-500 rounded-lg w-16 h-16 flex items-center justify-center"
+        >
+          <span class="material-icons text-white text-4xl">storage</span>
+        </div>
+        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Backend</h1>
+        <p class="mt-8 text-md leading-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+          ac nulla consequat aliquet id quis turpis.
+        </p>
+        <button
+          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <h1
+        class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold leading-7"
+      >
+        Good design means <br />
+        good business
+      </h1>
+
+      <div class="mt-8">
+        <img class="rounded-3xl" src="img/smarthome.jpg" alt="Smarthome app" />
+        <p class="text-xs text-gray-500 mt-3">Full stack application</p>
+        <h2 class="font-semibold text-lg">Smart home dashboard</h2>
+      </div>
+
+      <div class="mt-8">
+        <img class="rounded-3xl" src="img/onboard.png" alt="Onboard app" />
+        <p class="text-xs text-gray-500 mt-3">UX/UI design</p>
+        <h2 class="font-semibold text-lg">Onboard application</h2>
+      </div>
+
+      <div class="mt-8">
+        <img class="rounded-3xl" src="img/booking.png" alt="Booking app" />
+        <p class="text-xs text-gray-500 mt-3">Mobile application</p>
+        <h2 class="font-semibold text-lg">Booking system</h2>
+      </div>
+
+      <div class="mt-8">
+        <img
+          class="rounded-3xl"
+          src="img/juice-product.png"
+          alt="Smarthome app"
+        />
+        <p class="text-xs text-gray-500 mt-3">Front End application</p>
+        <h2 class="font-semibold text-lg">Juice product homepage</h2>
+      </div>
+
+      <a
+        href="#"
+        class="flex items-center text-blue-400 font-semibold mt-8 cursor-pointer text-lg"
+        >See more <span class="material-icons ml-2">arrow_right_alt</span></a
+      >
+
+      <p class="text-red-400 font-semibold mt-24 text-lg">Meet the team</p>
+
+      <h1 class="text-4xl text-gray-900 font-semibold mt-2">
+        We are chilled <br />
+        and a laidback team
+      </h1>
+
+      <p class="mt-8 text-md leading-6 w-64">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+
+      <div class="mt-8 flex">
+        <div class="flex items-center mr-3">
+          <img
+            class="rounded-3xl object-cover h-44"
+            src="img/person3.png"
+            alt="person"
+          />
+        </div>
+        <div>
+          <img
+            class="rounded-3xl object-cover h-36 w-36"
+            src="img/person1.png"
+            alt="person"
+          />
+          <img
+            class="rounded-3xl object-cover h-44 mt-3"
+            src="img/person2.png"
+            alt="person"
+          />
+        </div>
+      </div>
+
+      <p class="mt-24 text-2xl font-semibold leading-9">
+        “Fast and outstanding resutls. Edie understands their customer’s needs.
+        They have a young and talented team.”
+      </p>
+
+      <div class="mt-6 flex mb-16">
+        <img
+          class="rounded-xl object-cover h-20 mr-6"
+          src="img/person4.png"
+          alt=""
+        />
+        <div>
+          <p class="text-2xl font-semibold">Carlos Tran</p>
+          <p class="mt-2 text-lg text-gray-500">The Decorate Gatsby</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white p-9">
+      <div class="text-lg">
+        <a class="block leading-9" href="#">Home</a>
+        <a class="block leading-9" href="#">Services</a>
+        <a class="block leading-9" href="#">Our Works</a>
+        <a class="block leading-9" href="#">Clients</a>
+        <a class="block leading-9" href="#">Contact</a>
+      </div>
+
+      <div class="mt-16">
+        <h2 class="text-4xl font-bold">WebDevs</h2>
+        <div class="flex mt-2">
+          <a class="mr-2" href="https://instagram.com">
+            <img src="img/instagram.svg" alt="Instagram" />
+          </a>
+          <a class="mr-2" href="https://linkedin.com">
+            <img src="img/linkedin.svg" alt="Linkedin" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="img/twitter.svg" alt="Twitter" />
+          </a>
+        </div>
+
+        <form class="mt-8 mx-auto w-72">
+          <label class="text-xs inline-block text-gray-500" for="email"
+            >Want us to contact you?</label
+          >
+          <div class="relative w-full">
+            <input
+              type="email"
+              placeholder="Email"
+              class="bg-gray-100 p-3 pr-20 rounded-xl font-semibold"
+            />
+            <button
+              class="absolute top-1 right-2 bg-blue-400 hover:bg-blue-500 py-2 px-6 rounded-xl text-white"
+            >
+              Join
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
