@@ -12,11 +12,30 @@
     <title>WebDevs | Home</title>
   </head>
   <body class="text-gray-800">
-    <nav class="sticky top-0 p-3 z-10 bg-white">
+    <nav class="sticky top-0 p-3 md:p-6 z-10 bg-white">
       <div class="flex justify-between items-center">
-        <h1 class="text-2xl font-bold">WebDevs</h1>
-        <span id="hamburger" class="material-icons block">menu</span>
-        <span id="close" class="material-icons block hidden">close</span>
+        <h1 class="text-2xl md:text-3xl font-bold">WebDevs</h1>
+        <span id="hamburger" class="material-icons block md:hidden">menu</span>
+        <span id="close" class="material-icons block hidden md:hidden"
+          >close</span
+        >
+        <div
+          class="hidden md:flex font-semibold text-lg lg:w-1/2 lg:justify-around"
+        >
+          <a class="block py-1 px-2 hover:bg-blue-100 rounded" href="#">Home</a>
+          <a class="block py-1 px-2 hover:bg-blue-100 rounded" href="#"
+            >Services</a
+          >
+          <a class="block py-1 px-2 hover:bg-blue-100 rounded" href="#"
+            >Our Works</a
+          >
+          <a class="block py-1 px-2 hover:bg-blue-100 rounded" href="#"
+            >Clients</a
+          >
+          <a class="block py-1 px-2 hover:bg-blue-100 rounded" href="#"
+            >Contact</a
+          >
+        </div>
       </div>
       <div id="nav-links" class="mt-6 hidden">
         <a class="block py-1 px-2 mt-1 hover:bg-blue-100 rounded" href="#"
@@ -37,35 +56,41 @@
       </div>
     </nav>
 
-    <div class="container px-3 mx-auto max-w-sm">
-      <div class="ml-10 mt-10">
-        <p class="text-blue-400 text-xs font-semibold">
+    <div class="container px-3 mx-auto">
+      <div class="ml-10 lg:ml-32 mt-10">
+        <p class="text-blue-300 text-xs md:text-sm lg:text-base font-semibold">
           Unhappy with your website?
         </p>
-        <h1 class="text-2xl text-gray-900 font-semibold">
+        <h1
+          class="text-2xl md:text-3xl text-gray-900 font-semibold lg:text-4xl"
+        >
           We create beautiful <br />
           and fast web services
         </h1>
       </div>
 
       <img
-        class="h-36 w-full mt-4 rounded-2xl object-cover"
+        class="h-36 md:h-56 lg:h-80 w-full mt-4 md:mt-10 rounded-2xl object-cover"
         src="img/heroImage.jpg"
         alt="People in front of a whiteboard"
       />
-      <h1 class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold">
+
+      <h1
+        class="ml-10 w-72 mt-5 md:mt-10 lg:ml-32 text-2xl md:text-3xl lg:text-4xl text-gray-900 font-semibold"
+      >
         Story, emotion <br />
         and purpose
       </h1>
-      <p class="mt-8 text-xs mx-auto w-72 leading-5">
-        We help transform your ideas into real world <br />
-        applications that will outperform your <br />
-        toughest competition and help you achieve <br />
-        your strategic goals in short period of time.
+      <p
+        class="mt-4 lg:mt-10 text-xs md:text-sm lg:text-base ml-10 lg:ml-32 w-72 leading-5"
+      >
+        We help transform your ideas into real world applications that will
+        outperform your toughest competition and help you achieve your strategic
+        goals in short period of time.
       </p>
 
-      <form class="mt-8 mx-auto w-72">
-        <label class="text-xs inline-block text-gray-500" for="email"
+      <form class="mt-5 lg:mt-10 ml-10 lg:ml-32 w-72">
+        <label class="text-xs lg:text-sm inline-block text-gray-500" for="email"
           >Want us to contact you?</label
         >
         <div class="relative w-full">
@@ -82,155 +107,184 @@
         </div>
       </form>
 
-      <h1 class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold">
+      <h1
+        class="ml-10 w-72 mt-24 text-2xl md:text-3xl lg:text-4xl text-gray-900 font-semibold"
+      >
         We offer high <br />
         demand services
       </h1>
 
-      <div
-        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
-      >
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div
-          class="bg-blue-400 rounded-lg w-16 h-16 flex items-center justify-center"
+          class="group w-80 mx-auto mt-16 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
         >
-          <span class="material-icons text-white text-4xl">create</span>
+          <div
+            class="bg-blue-400 rounded-lg w-16 h-16 flex items-center justify-center"
+          >
+            <span class="material-icons text-white text-4xl">create</span>
+          </div>
+          <h1 class="mt-8 text-2xl text-gray-900 font-semibold">
+            UI/UX Design
+          </h1>
+          <p class="mt-8 text-md leading-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button
+            class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+          >
+            Get Started
+          </button>
         </div>
-        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">UI/UX Design</h1>
-        <p class="mt-8 text-md leading-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
-          ac nulla consequat aliquet id quis turpis.
-        </p>
-        <button
-          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
-        >
-          Get Started
-        </button>
-      </div>
 
-      <div
-        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
-      >
         <div
-          class="bg-green-500 rounded-lg w-16 h-16 flex items-center justify-center"
+          class="group w-80 mx-auto mt-16 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
         >
-          <span class="material-icons text-white text-4xl">code</span>
+          <div
+            class="bg-green-500 rounded-lg w-16 h-16 flex items-center justify-center"
+          >
+            <span class="material-icons text-white text-4xl">code</span>
+          </div>
+          <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Frontend</h1>
+          <p class="mt-8 text-md leading-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button
+            class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+          >
+            Get Started
+          </button>
         </div>
-        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Frontend</h1>
-        <p class="mt-8 text-md leading-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
-          ac nulla consequat aliquet id quis turpis.
-        </p>
-        <button
-          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
-        >
-          Get Started
-        </button>
-      </div>
 
-      <div
-        class="group mt-20 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
-      >
         <div
-          class="bg-red-500 rounded-lg w-16 h-16 flex items-center justify-center"
+          class="group w-80 mx-auto mt-16 transition-shadow hover:shadow-2xl px-8 py-12 rounded-2xl"
         >
-          <span class="material-icons text-white text-4xl">storage</span>
+          <div
+            class="bg-red-500 rounded-lg w-16 h-16 flex items-center justify-center"
+          >
+            <span class="material-icons text-white text-4xl">storage</span>
+          </div>
+          <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Backend</h1>
+          <p class="mt-8 text-md leading-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button
+            class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
+          >
+            Get Started
+          </button>
         </div>
-        <h1 class="mt-8 text-2xl text-gray-900 font-semibold">Backend</h1>
-        <p class="mt-8 text-md leading-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
-          ac nulla consequat aliquet id quis turpis.
-        </p>
-        <button
-          class="bg-gray-200 font-semibold mt-8 transition-colors group-hover:text-white group-hover:bg-blue-400 py-2 px-6 rounded-xl text-gray-500"
-        >
-          Get Started
-        </button>
       </div>
 
       <h1
-        class="mx-auto w-72 mt-10 text-2xl text-gray-900 font-semibold leading-7"
+        class="ml-10 mt-10 text-2xl md:text-3xl lg:text-4xl text-gray-900 font-semibold leading-7"
       >
         Good design means <br />
         good business
       </h1>
 
-      <div class="mt-8">
-        <img class="rounded-3xl" src="img/smarthome.jpg" alt="Smarthome app" />
-        <p class="text-xs text-gray-500 mt-3">Full stack application</p>
-        <h2 class="font-semibold text-lg">Smart home dashboard</h2>
-      </div>
+      <div class="md:mt-20 gap-7 grid grid-cols-1 md:grid-cols-2">
+        <div class="mt-8 mx-auto md:mt-16">
+          <img
+            class="rounded-3xl"
+            src="img/smarthome.jpg"
+            alt="Smarthome app"
+          />
+          <p class="text-xs lg:text-sm text-gray-500 mt-3">
+            Full stack application
+          </p>
+          <h2 class="font-semibold text-lg lg:text-2xl">
+            Smart home dashboard
+          </h2>
+        </div>
 
-      <div class="mt-8">
-        <img class="rounded-3xl" src="img/onboard.png" alt="Onboard app" />
-        <p class="text-xs text-gray-500 mt-3">UX/UI design</p>
-        <h2 class="font-semibold text-lg">Onboard application</h2>
-      </div>
+        <div class="mt-8 mx-auto md:-mt-8">
+          <img class="rounded-3xl" src="img/onboard.png" alt="Onboard app" />
+          <p class="text-xs lg:text-sm text-gray-500 mt-3">UX/UI design</p>
+          <h2 class="font-semibold text-lg lg:text-2xl">Onboard application</h2>
+        </div>
 
-      <div class="mt-8">
-        <img class="rounded-3xl" src="img/booking.png" alt="Booking app" />
-        <p class="text-xs text-gray-500 mt-3">Mobile application</p>
-        <h2 class="font-semibold text-lg">Booking system</h2>
-      </div>
+        <div class="mt-8 mx-auto md:mt-16">
+          <img class="rounded-3xl" src="img/booking.png" alt="Booking app" />
+          <p class="text-xs lg:text-sm text-gray-500 mt-3">
+            Mobile application
+          </p>
+          <h2 class="font-semibold text-lg lg:text-2xl">Booking system</h2>
+        </div>
 
-      <div class="mt-8">
-        <img
-          class="rounded-3xl"
-          src="img/juice-product.png"
-          alt="Smarthome app"
-        />
-        <p class="text-xs text-gray-500 mt-3">Front End application</p>
-        <h2 class="font-semibold text-lg">Juice product homepage</h2>
+        <div class="mt-8 mx-auto md:-mt-8">
+          <img
+            class="rounded-3xl"
+            src="img/juice-product.png"
+            alt="Smarthome app"
+          />
+          <p class="text-xs lg:text-sm text-gray-500 mt-3">
+            Front End application
+          </p>
+          <h2 class="font-semibold text-lg lg:text-2xl">
+            Juice product homepage
+          </h2>
+        </div>
       </div>
 
       <a
         href="#"
-        class="flex items-center text-blue-400 font-semibold mt-8 cursor-pointer text-lg"
+        class="md:ml-10 mt-8 lg:mt-14 flex items-center text-blue-400 hover:text-blue-500 font-semibold cursor-pointer text-lg lg:text-2xl"
         >See more <span class="material-icons ml-2">arrow_right_alt</span></a
       >
 
-      <p class="text-red-400 font-semibold mt-24 text-lg">Meet the team</p>
-
-      <h1 class="text-4xl text-gray-900 font-semibold mt-2">
-        We are chilled <br />
-        and a laidback team
-      </h1>
-
-      <p class="mt-8 text-md leading-6 w-64">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-
-      <div class="mt-8 flex">
-        <div class="flex items-center mr-3">
-          <img
-            class="rounded-3xl object-cover h-44"
-            src="img/person3.png"
-            alt="person"
-          />
-        </div>
+      <div class="md:flex md:mt-20 justify-around items-center">
         <div>
-          <img
-            class="rounded-3xl object-cover h-36 w-36"
-            src="img/person1.png"
-            alt="person"
-          />
-          <img
-            class="rounded-3xl object-cover h-44 mt-3"
-            src="img/person2.png"
-            alt="person"
-          />
+          <p class="text-red-400 font-semibold mt-24 text-lg">Meet the team</p>
+
+          <h1 class="text-4xl text-gray-900 font-semibold mt-2">
+            We are chilled <br />
+            and a laidback <br />
+            team
+          </h1>
+
+          <p class="mt-4 text-md leading-6 w-64">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div class="mt-8 flex">
+          <div class="flex items-center mr-3">
+            <img
+              class="rounded-3xl object-cover h-44 lg:h-80"
+              src="img/person3.png"
+              alt="person"
+            />
+          </div>
+          <div>
+            <img
+              class="rounded-3xl object-cover h-36 w-36 lg:h-64 lg:w-64"
+              src="img/person1.png"
+              alt="person"
+            />
+            <img
+              class="rounded-3xl object-cover h-44 lg:h-72 mt-3"
+              src="img/person2.png"
+              alt="person"
+            />
+          </div>
         </div>
       </div>
 
-      <p class="mt-24 text-2xl font-semibold leading-9">
-        “Fast and outstanding resutls. Edie understands their customer’s needs.
-        They have a young and talented team.”
+      <p
+        class="mt-24 lg:mt-32 text-2xl font-semibold md:max-w-lg md:ml-10 lg:max-w-3xl lg:text-3xl"
+      >
+        “Fast and outstanding resutls. WebDevs understands their customer’s
+        needs. They have a young and talented team.”
       </p>
 
-      <div class="mt-6 flex mb-16">
+      <div class="mt-6 lg:mt-10 flex mb-16 md:ml-10">
         <img
           class="rounded-xl object-cover h-20 mr-6"
           src="img/person4.png"
-          alt=""
+          alt="person"
         />
         <div>
           <p class="text-2xl font-semibold">Carlos Tran</p>

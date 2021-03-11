@@ -15,8 +15,8 @@
 
 <!-- To-do list:
 
-- Animations
-- Click author name or tag for searching -->
+- Animations for images
+- Refactor: add repetitive tailwindcss classes
 
 ## [App Demo]()
 
