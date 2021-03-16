@@ -955,8 +955,8 @@ img {
     display: none;
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
+  .md\:justify-around {
+    justify-content: space-around;
   }
 
   .md\:h-56 {
