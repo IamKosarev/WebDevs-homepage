@@ -1,6 +1,6 @@
 # WebDevs Homepage
 
-> In this project I...
+> In this project I created WebDevs homepage with Tailwind css.
 
 ## Technologies
 
@@ -8,12 +8,8 @@
 - Postcss 8.3.1
 - Autoprefixer 10.2.4
 
-<!-- ## Features
 
-- Search Pixabay for pictures
-- Get picture cards with description -->
-
-<!-- To-do list:
+## To-do list:
 
 - Animations for images
 - Refactor: add repetitive tailwindcss classes
@@ -22,4 +18,6 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](https://i.imgur.com/4EaajeP.png)
+
+![Example screenshot](https://i.imgur.com/gVE28ND.png)
