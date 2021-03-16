@@ -14,10 +14,8 @@
 - Animations for images
 - Refactor: add repetitive tailwindcss classes
 
-## [App Demo]()
+## [App Demo](https://webdevs-homepage.netlify.app/)
 
 ## Screenshots
 
 ![Example screenshot](https://i.imgur.com/4EaajeP.png)
-
-![Example screenshot](https://i.imgur.com/gVE28ND.png)
